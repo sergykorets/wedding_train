@@ -42,6 +42,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'jquery-rails'
 gem 'thor'
+gem 'rails_admin', '~> 1.3'
 
 group :development, :test do
   gem 'pry'

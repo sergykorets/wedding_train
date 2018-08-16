@@ -54,45 +54,17 @@ export default class Wedding extends React.Component {
           <div className="container relative-z">
             <div className="row">
               <div className="col-lg-10 offset-lg-1">
-                <div id="comment-carousel" className="owl-carousel owl-theme owl-loaded owl-drag">
-                  <div className="owl-stage-outer">
-                    <div className="owl-stage" style={{ borderRadius: 40 + 'px', paddingLeft: 30 + 'px', paddingRight: 30+'px'}}>
-                      <div className="owl-item cloned" style={{width: 860+'px', marginRight: 30+'px'}}>
-                        <div className="item">
-                          <h3 className="heading text-center">Привіт, {this.state.name}, 14 вересня 2018 року забудь про роботу, вимкни комп’ютер і не плануй нічого крім як приїхати до нас!</h3>
-                        </div>
-                      </div>
-                      <div className="owl-item cloned" style={{width: 860+'px', marginRight: 30+'px'}}>
-                        <div className="item">
-                          <h3 className="heading text-center">Цей день в році для нас буде незвичайним. І ми ніяк не можемо провести його без тебе.</h3>
-                        </div>
-                      </div>
-                      <div className="owl-item cloned" style={{width: 860+'px', marginRight: 30+'px'}}>
-                        <div className="item">
-                          <h3 className="heading text-center">Отже прийми наше запрошення провести цей п'ятницький ранок, день, вечір, <strike style={{color: '#D12828'}}>ніч</strike> частину ночі разом з нами.</h3>
-                        </div>
-                      </div>
-                      <div className="owl-item cloned" style={{width: 860+'px', marginRight: 30+'px'}}>
-                        <div className="item">
-                          <h3 className="heading text-center">Цього дня ми одружуємось.</h3>
-                        </div>
-                      </div>
-                      <div className="owl-item cloned" style={{width: 860+'px', marginRight: 30+'px'}}>
-                        <div className="item">
-                          <h3 className="heading text-center">Місце проведення - ресторан
-                            <a href="https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%22%D0%94%D1%96%D0%B1%D1%80%D0%BE%D0%B2%D0%B0%22/@48.8278502,24.3042801,9.44z/data=!4m13!1m7!3m6!1s0x4730ca3cbca1546f:0x9327cf076f47d349!2z0JTRltCx0YDQvtCy0LAsINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzc3MDY!3b1!8m2!3d48.7643384!4d24.5030328!3m4!1s0x0:0x654f50cae95f6085!8m2!3d48.7688004!4d24.518888" target='_blank'> "Діброва".</a></h3>
-                        </div>
-                      </div>
-                      <div className="owl-item active" style={{width: 860+'px', marginRight: 30+'px'}}><div className="item">
-                      <h3 className="heading text-center">Церемонія розпочинається о 16:00 за київським часом.</h3>
-                    </div>
-                      </div>
-                      <div className="owl-item" style={{width: 860+'px', marginRight: 30+'px'}}><div className="item">
-                      <h3 className="heading text-center">Тому бери з собою настрій гуляти, танцювати і веселитись.</h3>
-                    </div></div>
-                      <div className="owl-item" style={{width: 860+'px', marginRight: 30+'px'}}><div className="item">
-                        <h3 className="heading text-center">Сідай на поїзд, пригай в машину, біжи на літак - головне бути на місці у вказаний час!</h3>
-                      </div></div></div></div><div className="owl-nav disabled"></div><div className="owl-dots"><div className="owl-dot active"><span></span></div><div className="owl-dot"><span></span></div><div className="owl-dot"><span></span></div></div></div>
+                <div className='darker'>
+                  <h3 className="heading text-center">Привіт, {this.state.name}, 14 вересня 2018 року забудь про роботу, вимкни комп’ютер і не плануй нічого крім як приїхати до нас!</h3>
+                  <h3 className="heading text-center">Цей день в році для нас буде незвичайним. І ми ніяк не можемо провести його без тебе.</h3>
+                  <h3 className="heading text-center">Отже прийми наше запрошення провести цей п'ятницький ранок, день, вечір, <strike style={{color: '#D12828'}}>ніч</strike> частину ночі разом з нами.</h3>
+                  <h3 className="heading text-center">Цього дня ми одружуємось.</h3>
+                  <h3 className="heading text-center">Місце проведення - ресторан
+                              <a href="https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%22%D0%94%D1%96%D0%B1%D1%80%D0%BE%D0%B2%D0%B0%22/@48.8278502,24.3042801,9.44z/data=!4m13!1m7!3m6!1s0x4730ca3cbca1546f:0x9327cf076f47d349!2z0JTRltCx0YDQvtCy0LAsINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzc3MDY!3b1!8m2!3d48.7643384!4d24.5030328!3m4!1s0x0:0x654f50cae95f6085!8m2!3d48.7688004!4d24.518888" target='_blank'> "Діброва".</a></h3>
+                  <h3 className="heading text-center">Церемонія розпочинається о 16:00 за київським часом.</h3>
+                  <h3 className="heading text-center">Тому бери з собою настрій гуляти, танцювати і веселитись.</h3>
+                  <h3 className="heading text-center">Сідай на поїзд, пригай в машину, біжи на літак - головне бути на місці у вказаний час!</h3>
+                </div>
               </div>
             </div>
           </div>

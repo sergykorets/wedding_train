@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "@u-wave/react-youtube": "^0.6.0",
     "axios": "^0.18.0",
     "babel-preset-react": "^6.24.1",
     "bootstrap": "4.0.0-beta",
@@ -11,6 +12,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-grid-gallery": "^0.5.1",
     "react-on-rails": "11.1.0-beta.1",
     "reactstrap": "^6.3.1"
   },

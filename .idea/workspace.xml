@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fab184b-25b2-4936-9215-f58bc18b7c0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/wedding.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/wedding.scss" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="419" column="28" lean-forward="true" selection-start-line="419" selection-start-column="28" selection-end-line="419" selection-end-column="28" />
+              <caret line="419" column="28" lean-forward="false" selection-start-line="419" selection-start-column="28" selection-end-line="419" selection-end-column="28" />
               <folding>
                 <marker date="1534484024398" expanded="true" signature="1422:24454" ph="{...}" />
                 <marker date="1534484024398" expanded="true" signature="1478:24440" ph="..." />
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_nav.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wedding.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wedding.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wedding.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -188,11 +188,11 @@
         <option value="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/hello_world/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wedding.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
       </list>
     </option>
   </component>
@@ -557,12 +557,12 @@
       <workItem from="1534276202137" duration="5715000" />
       <workItem from="1534358030027" duration="6278000" />
       <workItem from="1534420753296" duration="4169000" />
-      <workItem from="1534432693394" duration="10208000" />
+      <workItem from="1534432693394" duration="10315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86414000" />
+    <option name="totallyTimeSpent" value="86521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -921,18 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="419" column="28" lean-forward="true" selection-start-line="419" selection-start-column="28" selection-end-line="419" selection-end-column="28" />
+          <caret line="419" column="28" lean-forward="false" selection-start-line="419" selection-start-column="28" selection-end-line="419" selection-end-column="28" />
           <folding>
             <marker date="1534484024398" expanded="true" signature="1422:24454" ph="{...}" />
             <marker date="1534484024398" expanded="true" signature="1478:24440" ph="..." />
@@ -944,7 +936,15 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wedding.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
           <folding />
         </state>
       </provider>

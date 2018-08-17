@@ -92,7 +92,7 @@ export default class Wedding extends React.Component {
             </div>
             <h2 className="big-heading mt-0 mt-0">Про <span className="custom-color">нас</span></h2>
             <img className="headline_1" src={Simple} />
-            <p className="sub-heading col-lg-8 offset-lg-2 margin-b-5">Ми познайомилися ще зі школи.</p>
+            <p className="sub-heading col-lg-8 offset-lg-2 margin-b-5">Ми познайомилися ще в школі.</p>
           </div>
         </div>
         <div className="row">
@@ -164,7 +164,7 @@ export default class Wedding extends React.Component {
             <div className="tline-right-side col-sm-12 col-md-6 pl-70 text-left date-circle margin-b-2">
               <div className="tline-arrow"></div>
               <h4 className="tline-title font-weight-light">Старт потягу в Івано-Франківськ</h4>
-              <p>Саньок допомагає недомій туристці закинути речі у вже їдучий потяг. Петруха і Макс витягують її і Санька у тамбур.
+              <p>Саньок допомагає невідомій туристці закинути речі у вже їдучий потяг. Петруха і Макс витягують її і Санька у тамбур.
                 Настя і Наташа жмуть стоп кран, щоб Славон встиг тоже сісти.</p>
               <p><b>План Б:</b> Славон дожене потяг у Новограді або Львові</p>
               <p><b>Увага!</b> Ловимо у Новограді гостей з Корця о <b>22:21</b></p>

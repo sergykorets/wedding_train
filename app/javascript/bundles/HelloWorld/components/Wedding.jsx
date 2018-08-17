@@ -16,6 +16,8 @@ export default class Wedding extends React.Component {
       name: this.props.guest,
       attended: false,
       images: this.getImages(),
+      attendedUsers: [],
+      notAttendedUsers: [],
       loading: true
     };
   }
@@ -23,7 +25,7 @@ export default class Wedding extends React.Component {
   componentDidMount() {
     axios.get('/guests')
       .then(res => {
-        this.setState({ attended: res.data.attended, loading: false });
+        this.setState({ attended: res.data.attended, attendedUsers: res.data.attendedUsers, notAttendedUsers: res.data.notAttendedUsers, loading: false });
       });
   }
 
@@ -47,6 +49,7 @@ export default class Wedding extends React.Component {
   }
 
   render() {
+    console.log(this.state)
     return (
     <Fragment>
       { !!this.state.name &&
@@ -412,6 +415,45 @@ export default class Wedding extends React.Component {
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="countup">
+        { !this.state.loading &&
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-2">
+                <div id="counter-3" class="custom-color counter-number">54</div>
+                <h6 class="font-weight-light">Розіслано запрошень</h6>
+              </div>
+              <div class="col-sm-8">
+                <div id="counter-1" class="custom-color counter-number">{this.state.attendedUsers.length}</div>
+                <h4 class="font-weight-light">Гостей, які підтвердили присутність</h4>
+                <div className='users'>
+                  {this.state.attendedUsers.map((user, index) => {
+                    return (
+                      <div className="people-img text-center ml-10">
+                        <img className="" src={user.avatar} alt=""/>
+                        <p>{user.name}</p>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div id="counter-2" class="custom-color counter-number">{this.state.notAttendedUsers.length}</div>
+                <h6 class="font-weight-light">Гостей, які не бачать кнопку: "Дякую за запрошення ;)"</h6>
+                <div className='users'>
+                  {this.state.notAttendedUsers.map((user, index) => {
+                    return (
+                      <div className="people-img text-center ml-0">
+                        <p>{user.name}</p>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>}
       </section>
 
     <section>

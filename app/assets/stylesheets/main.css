@@ -1,24 +1,3 @@
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-SemiBold;
-  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
-}
-
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
@@ -115,14 +94,12 @@ iframe {
   font-family: Montserrat-SemiBold;
   font-size: 16px;
   color: #555555;
-  line-height: 1.5;
 }
 
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 14px;
   color: #999999;
-  line-height: 1.5;
 }
 
 .bo1 {border-bottom: 1px solid #999999;}

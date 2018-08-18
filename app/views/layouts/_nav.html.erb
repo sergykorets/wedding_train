@@ -1,25 +1,29 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">Wedding</a>
+  <!--<a class="navbar-brand" href="/tables">Столи</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav">
-        <% if user_signed_in? %>
-          <% if !current_user.name.blank? %>
-            <li><%= link_to current_user.name, edit_user_registration_path %></li>
-          <% else %>
-            <li><%= link_to "Редагувати профіль", edit_user_registration_path %></li>
-          <% end %>
-          <% if current_user.remote_avatar_url %>
-            <li class="round-image-30"><%= image_tag(current_user.remote_avatar_url) %></li>
-          <% end %>
-          <li><%= link_to 'Вийти', destroy_user_session_path, data: {:confirm => "Вийти?"} %></li>
+    <ul class="nav navbar-nav float-right">
+      <% if user_signed_in? %>
+        <% if !current_user.name.blank? %>
+          <li><%= link_to current_user.name, edit_user_registration_path %></li>
         <% else %>
-          <li><%= link_to 'Зареєструватися', new_user_registration_path, class: "active" %></li>
-          <li><%= link_to 'Увійти', new_user_session_path, class: "active" %></li>
+          <li><%= link_to "Редагувати профіль", edit_user_registration_path %></li>
         <% end %>
+        <% if current_user.remote_avatar_url %>
+          <li class="round-image-30"><%= image_tag(current_user.remote_avatar_url) %></li>
+        <% end %>
+        <% if current_user.chair %>
+          <li><%= link_to 'Я хочу пересісти!', change_sit_path, data: {:confirm => "Ти точно хочеш пересісти?"}%></li>
+        <% end %>
+        <li><%= link_to 'Вийти', destroy_user_session_path, data: {:confirm => "Вийти?"} %></li>
+      <% else %>
+        <li><%= link_to 'Зареєструватися', new_user_registration_path, class: "active" %></li>
+        <li><%= link_to 'Увійти', new_user_session_path, class: "active" %></li>
+      <% end %>
     </ul>
   </div>
 </nav>

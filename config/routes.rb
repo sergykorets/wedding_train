@@ -9,5 +9,9 @@ Rails.application.routes.draw do
   get 'wedding', to: 'wedding#index'
   get 'guests', to: 'wedding#guests'
   get 'attend', to: 'wedding#attend'
+  get 'tables', to: 'tables#index'
+  get 'sits', to: 'tables#tables'
+  get 'sit', to: 'tables#sit'
+  get 'change_sit', to: 'tables#cancel'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

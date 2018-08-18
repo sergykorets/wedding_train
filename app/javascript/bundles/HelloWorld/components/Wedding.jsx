@@ -116,7 +116,7 @@ export default class Wedding extends React.Component {
           </div>
           <div className="col-lg-6 text-center">
             <figure>
-              <img src="./images/8L_KvCOJ7wE.jpg" alt="groom" className="img-fluid rounded-circle"/>
+              <img src="/images/8L_KvCOJ7wE.jpg" alt="groom" className="img-fluid rounded-circle"/>
             </figure>
             <div className="about-content col-sm-8 offset-sm-2">
               <h4>Ляшук

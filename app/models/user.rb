@@ -5,6 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable, :omniauthable, :omniauth_providers => [:facebook]
 
   has_one :place
+  has_one :chair
   validates_presence_of :name, :email
 
   def self.find_for_oauth(auth)

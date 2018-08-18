@@ -90,7 +90,11 @@ export default class Tables extends React.Component {
                     { Object.keys(this.state.tables[tableId]).map((chairId, i) => { return (
                       <Fragment key={i}>
                         { !!this.state.tables[tableId][chairId].userId ?
-                          <a className={`deg${i} user`} href='#'><img src={this.state.tables[tableId][chairId].avatar} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt="/images/missing.jpg"/></a>
+                          <a className={`deg${i} user`} href='#'>
+                            <div class="image-cropper">
+                              <img src={ !!this.state.tables[tableId][chairId].avatar ? this.state.tables[tableId][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt={this.state.tables[tableId][chairId].name}/>
+                            </div>
+                          </a>
                           : <a onClick={() => this.sitUser(tableId, chairId)} className={`deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
                       </Fragment>
                     )})}

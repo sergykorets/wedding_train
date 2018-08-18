@@ -44,6 +44,19 @@ body {
 }
 .table {
   margin-top: 100px;
+  .image-cropper {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      //width: auto;
+    }
+  }
 }
 .wedding-table {
   padding: 50px;

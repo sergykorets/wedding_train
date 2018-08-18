@@ -9,10 +9,14 @@ class TablesController < ApplicationController
 
   def sit
     if current_user
-      if Chair.find_by_id(params[:chair_id]).update_attributes(user_id: current_user.id)
-        render json: {success: true}
+      if current_user.attend
+        if Chair.find_by_id(params[:chair_id]).update_attributes(user_id: current_user.id)
+          render json: {success: true}
+        else
+          render json: {success: false, error: '1'}
+        end
       else
-        render json: {success: false, error: '1'}
+        render json: {success: false, error: '2'}
       end
     else
       render json: {success: false, error: '0'}

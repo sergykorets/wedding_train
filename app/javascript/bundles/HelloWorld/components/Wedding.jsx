@@ -74,14 +74,14 @@ export default class Wedding extends React.Component {
           <div className="img-overlay"></div>
         </section>}
 
-      {!!this.state.name &&
+
         <section>
           <div className="form-group col-md-12 text-center">
             { this.state.attended ?
               <button disabled={true} className='btn btn-default fill-btn'>Дякуємо, що будеш з нами :) Чекаємо 14 вересня</button> :
               <button type="submit" onClick={() => this.submitAttending()} className='btn btn-default fill-btn'>Дякую за запрошення, я обов'язково буду</button>}
           </div>
-        </section>}
+        </section>
 
     <section id="about">
       <div className="container">

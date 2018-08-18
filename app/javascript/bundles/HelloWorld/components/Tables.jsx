@@ -33,6 +33,8 @@ export default class Tables extends React.Component {
         } else {
           if (res.data.error == '0') {
             window.location = `/users/sign_in?chair_id=${chairId}`
+          } else if (res.data.error == '2') {
+            alert("Спочатку натисни кнопку - Дякую за запрошення, я обов'язково буду")
           } else {
             alert('Спочатку натисни кнопку - Я хочу пересісти!')
           }

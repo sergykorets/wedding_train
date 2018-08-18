@@ -46,6 +46,7 @@ gem 'omniauth-facebook'
 gem 'thor'
 gem 'rails_admin', '~> 1.3'
 gem "font-awesome-rails"
+gem 'rqrcode'
 
 group :development, :test do
   gem 'pry'

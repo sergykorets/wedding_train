@@ -422,7 +422,7 @@ export default class Wedding extends React.Component {
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-2">
-                <div id="counter-3" class="custom-color counter-number">54</div>
+                <div id="counter-3" class="custom-color counter-number">55</div>
                 <h6 class="font-weight-light">Розіслано запрошень</h6>
               </div>
               <div class="col-sm-8">
@@ -441,7 +441,7 @@ export default class Wedding extends React.Component {
               </div>
               <div class="col-md-2">
                 <div id="counter-2" class="custom-color counter-number">{this.state.notAttendedUsers.length}</div>
-                <h6 class="font-weight-light">Гостей, які не бачать кнопку: "Дякую за запрошення ;)"</h6>
+                <h6 class="font-weight-light">Гостей, які ще не обрали місце за столом"</h6>
                 <div className='users'>
                   {this.state.notAttendedUsers.map((user, index) => {
                     return (

@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'wedding', to: 'wedding#index'
   get 'guests', to: 'wedding#guests'
   get 'attend', to: 'wedding#attend'
-  #get 'tables', to: 'tables#index'
+  get 'tables', to: 'tables#index'
   get 'sits', to: 'tables#tables'
   get 'sit', to: 'tables#sit'
   get 'change_sit', to: 'tables#cancel'

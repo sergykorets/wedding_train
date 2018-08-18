@@ -398,7 +398,7 @@ export default class Wedding extends React.Component {
                 <p>Петро Леонідович</p>
               </div>
               <div className="people-img text-center ml-5">
-                <img className="" src='/images/IMG_0355.jpg' alt=""/>
+                <img className="" src='/images/IMG_0356.jpg' alt=""/>
                 <p>Людмила Ярославівна</p>
               </div>
             </div>

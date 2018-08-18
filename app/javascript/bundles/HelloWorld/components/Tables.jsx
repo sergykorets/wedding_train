@@ -74,12 +74,12 @@ export default class Tables extends React.Component {
           <div className='row text-center'>
             <div className='col-lg-6 offset-lg-3 wedding-table'>
               <div className='row'>
-                <div className='col-sm-2'><img src='/images/12552981_927774783959446_8226873663936347331_n.jpg' alt=""/></div>
-                <div className='col-sm-2'><img src='https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/28698807_593697030987111_7099525507591448863_o.jpg?_nc_cat=0&oh=851a6c8dbb32f5d3cffb71fbb8b9edba&oe=5C02CC73' alt=""/></div>
-                <div className='col-sm-2'><img src='/images/eUuai1kaCeY.jpg' alt=""/></div>
-                <div className='col-sm-2'><img src='/images/8L_KvCOJ7wE.jpg' alt=""/></div>
-                <div className='col-sm-2'><img src='https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/18814623_1580588805345869_2399258320305741025_o.jpg?_nc_cat=0&oh=47e56c30e64d26626f3cf76a3809df59&oe=5C0089BC' alt=""/></div>
-                <div className='col-sm-2'><img src='/images/22853113_367986120303019_8357080663215630_n.jpg' alt=""/></div>
+                <div className='col-sm-2'><img src='/images/12552981_927774783959446_8226873663936347331_n.jpg' alt="/images/missing.jpg"/></div>
+                <div className='col-sm-2'><img src='https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/28698807_593697030987111_7099525507591448863_o.jpg?_nc_cat=0&oh=851a6c8dbb32f5d3cffb71fbb8b9edba&oe=5C02CC73' alt="/images/missing.jpg"/></div>
+                <div className='col-sm-2'><img src='/images/eUuai1kaCeY.jpg' alt="/images/missing.jpg"/></div>
+                <div className='col-sm-2'><img src='/images/8L_KvCOJ7wE.jpg' alt="/images/missing.jpg"/></div>
+                <div className='col-sm-2'><img src='https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/18814623_1580588805345869_2399258320305741025_o.jpg?_nc_cat=0&oh=47e56c30e64d26626f3cf76a3809df59&oe=5C0089BC' alt="/images/missing.jpg"/></div>
+                <div className='col-sm-2'><img src='/images/22853113_367986120303019_8357080663215630_n.jpg' alt="/images/missing.jpg"/></div>
               </div>
             </div>
             { Object.keys(this.state.tables).map((tableId, index) => { return (
@@ -90,7 +90,7 @@ export default class Tables extends React.Component {
                     { Object.keys(this.state.tables[tableId]).map((chairId, i) => { return (
                       <Fragment key={i}>
                         { !!this.state.tables[tableId][chairId].userId ?
-                          <a className={`deg${i} user`} href='#'><img src={this.state.tables[tableId][chairId].avatar} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt=""/></a>
+                          <a className={`deg${i} user`} href='#'><img src={this.state.tables[tableId][chairId].avatar} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt="/images/missing.jpg"/></a>
                           : <a onClick={() => this.sitUser(tableId, chairId)} className={`deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
                       </Fragment>
                     )})}

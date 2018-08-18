@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fab184b-25b2-4936-9215-f58bc18b7c0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/wedding_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/wedding_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx" afterPath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/public/images/IMG_0355.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" afterPath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -70,18 +66,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tables.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tables.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+            <state relative-caret-position="579">
+              <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1534577598371" expanded="true" signature="1469:2029" ph="..." />
-                <marker date="1534577598371" expanded="true" signature="1505:1914" ph="..." />
-                <marker date="1534577598371" expanded="true" signature="1537:1899" ph="..." />
-                <marker date="1534577598371" expanded="true" signature="1589:1882" ph="..." />
-                <marker date="1534577598371" expanded="true" signature="1635:1691" ph="..." />
+                <marker date="1534623023153" expanded="true" signature="1469:2029" ph="..." />
+                <marker date="1534623023153" expanded="true" signature="1505:1914" ph="..." />
+                <marker date="1534623023153" expanded="true" signature="1537:1899" ph="..." />
+                <marker date="1534623023153" expanded="true" signature="1589:1882" ph="..." />
+                <marker date="1534623023153" expanded="true" signature="1635:1691" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="85" lean-forward="true" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+              <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -121,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/wedding_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -231,11 +227,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/tables.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wedding.scss" />
         <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
-        <option value="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" />
         <option value="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx" />
         <option value="$PROJECT_DIR$/app/controllers/wedding_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" />
       </list>
     </option>
   </component>
@@ -610,12 +606,12 @@
       <workItem from="1534432693394" duration="10476000" />
       <workItem from="1534491047766" duration="1020000" />
       <workItem from="1534499436986" duration="230000" />
-      <workItem from="1534523753910" duration="18499000" />
+      <workItem from="1534523753910" duration="18986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106431000" />
+    <option name="totallyTimeSpent" value="106918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -987,21 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1534577598371" expanded="true" signature="1469:2029" ph="..." />
-            <marker date="1534577598371" expanded="true" signature="1505:1914" ph="..." />
-            <marker date="1534577598371" expanded="true" signature="1537:1899" ph="..." />
-            <marker date="1534577598371" expanded="true" signature="1589:1882" ph="..." />
-            <marker date="1534577598371" expanded="true" signature="1635:1691" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Wedding.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1026,7 +1007,15 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/wedding_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -1039,11 +1028,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="85" lean-forward="true" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-          <folding />
+        <state relative-caret-position="579">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1534623023153" expanded="true" signature="1469:2029" ph="..." />
+            <marker date="1534623023153" expanded="true" signature="1505:1914" ph="..." />
+            <marker date="1534623023153" expanded="true" signature="1537:1899" ph="..." />
+            <marker date="1534623023153" expanded="true" signature="1589:1882" ph="..." />
+            <marker date="1534623023153" expanded="true" signature="1635:1691" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

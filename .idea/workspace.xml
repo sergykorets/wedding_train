@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8fab184b-25b2-4936-9215-f58bc18b7c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tables.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/tables.scss" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" afterPath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="tables.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/tables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="-169">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -605,12 +604,12 @@
       <workItem from="1534432693394" duration="10476000" />
       <workItem from="1534491047766" duration="1020000" />
       <workItem from="1534499436986" duration="230000" />
-      <workItem from="1534523753910" duration="20601000" />
+      <workItem from="1534523753910" duration="20817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108533000" />
+    <option name="totallyTimeSpent" value="108749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1036,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/tables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="-169">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>

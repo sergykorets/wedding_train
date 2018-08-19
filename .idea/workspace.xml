@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fab184b-25b2-4936-9215-f58bc18b7c0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/tables.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/tables.scss" />
       <change beforePath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" afterPath="$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -49,15 +47,15 @@
       <file leaf-file-name="Tables.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="537">
+              <caret line="96" column="100" lean-forward="false" selection-start-line="96" selection-start-column="100" selection-end-line="96" selection-end-column="100" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1534670159355" expanded="true" signature="1441:2001" ph="..." />
-                <marker date="1534670159355" expanded="true" signature="1477:1886" ph="..." />
-                <marker date="1534670159355" expanded="true" signature="1509:1871" ph="..." />
-                <marker date="1534670159355" expanded="true" signature="1561:1854" ph="..." />
-                <marker date="1534670159355" expanded="true" signature="1607:1663" ph="..." />
+                <marker date="1534670476388" expanded="true" signature="1441:2001" ph="..." />
+                <marker date="1534670476388" expanded="true" signature="1477:1886" ph="..." />
+                <marker date="1534670476388" expanded="true" signature="1509:1871" ph="..." />
+                <marker date="1534670476388" expanded="true" signature="1561:1854" ph="..." />
+                <marker date="1534670476388" expanded="true" signature="1607:1663" ph="..." />
               </folding>
             </state>
           </provider>
@@ -620,12 +618,12 @@
       <workItem from="1534432693394" duration="10476000" />
       <workItem from="1534491047766" duration="1020000" />
       <workItem from="1534499436986" duration="230000" />
-      <workItem from="1534523753910" duration="25304000" />
+      <workItem from="1534523753910" duration="25476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113236000" />
+    <option name="totallyTimeSpent" value="113408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1045,15 +1043,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/bundles/HelloWorld/components/Tables.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="537">
+          <caret line="96" column="100" lean-forward="false" selection-start-line="96" selection-start-column="100" selection-end-line="96" selection-end-column="100" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <marker date="1534670159355" expanded="true" signature="1441:2001" ph="..." />
-            <marker date="1534670159355" expanded="true" signature="1477:1886" ph="..." />
-            <marker date="1534670159355" expanded="true" signature="1509:1871" ph="..." />
-            <marker date="1534670159355" expanded="true" signature="1561:1854" ph="..." />
-            <marker date="1534670159355" expanded="true" signature="1607:1663" ph="..." />
+            <marker date="1534670476388" expanded="true" signature="1441:2001" ph="..." />
+            <marker date="1534670476388" expanded="true" signature="1477:1886" ph="..." />
+            <marker date="1534670476388" expanded="true" signature="1509:1871" ph="..." />
+            <marker date="1534670476388" expanded="true" signature="1561:1854" ph="..." />
+            <marker date="1534670476388" expanded="true" signature="1607:1663" ph="..." />
           </folding>
         </state>
       </provider>

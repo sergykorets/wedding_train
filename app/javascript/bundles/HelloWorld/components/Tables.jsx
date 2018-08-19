@@ -94,7 +94,7 @@ export default class Tables extends React.Component {
                               <img src={ !!this.state.tables[tableId][chairId].avatar ? this.state.tables[tableId][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt={this.state.tables[tableId][chairId].name}/>
                             </div>
                           </a>
-                          : <a onClick={() => this.sitUser(tableId, chairId)} className={tableId==9 ? `extended${i}` : `deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
+                          : <a onClick={() => this.sitUser(tableId, chairId)} className={tableId == Object.keys(this.state.tables)[0] ? `extended${i}` : `deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
                       </Fragment>
                     )})}
                   </div>

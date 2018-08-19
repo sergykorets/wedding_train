@@ -30,6 +30,21 @@
 .deg11 { transform: rotate(282.8571428571429deg) translate(12em) rotate(-282.8571428571429deg); }
 .deg12 { transform: rotate(308.57142857142856deg) translate(12em) rotate(-308.57142857142856deg); }
 .deg13 { transform: rotate(334.2857142857143deg) translate(12em) rotate(-334.2857142857143deg); }
+.extended0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.extended1 { transform: rotate(24deg) translate(12em) rotate(-24deg); }
+.extended2 { transform: rotate(48deg) translate(12em) rotate(-48deg); }
+.extended3 { transform: rotate(72deg) translate(12em) rotate(-72deg); }
+.extended4 { transform: rotate(96deg) translate(12em) rotate(-96deg); }
+.extended5 { transform: rotate(120deg) translate(12em) rotate(-120deg); }
+.extended6 { transform: rotate(144deg) translate(12em) rotate(-144deg); }
+.extended7 { transform: rotate(168deg) translate(12em) rotate(-168deg); }
+.extended8 { transform: rotate(192deg) translate(12em) rotate(-192deg); }
+.extended9 { transform: rotate(216deg) translate(12em) rotate(-216deg); }
+.extended10 { transform: rotate(240deg) translate(12em) rotate(-240deg); }
+.extended11 { transform: rotate(264deg) translate(12em) rotate(-264deg); }
+.extended12 { transform: rotate(288deg) translate(12em) rotate(-288deg); }
+.extended13 { transform: rotate(312deg) translate(12em) rotate(-312deg); }
+.extended14 { transform: rotate(336deg) translate(12em) rotate(-336deg); }
 body {
   line-height: 0.8 !important;
 }

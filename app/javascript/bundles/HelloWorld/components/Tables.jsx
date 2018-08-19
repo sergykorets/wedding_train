@@ -9,7 +9,7 @@ export default class Tables extends React.Component {
     super(props);
 
     this.state = {
-      tables: [],
+      tables: {},
       popoverOpen: false,
       hoverId: '1',
       tableId: '1',
@@ -52,7 +52,6 @@ export default class Tables extends React.Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <section>
         <div className="container">
@@ -90,12 +89,12 @@ export default class Tables extends React.Component {
                     { Object.keys(this.state.tables[tableId]).map((chairId, i) => { return (
                       <Fragment key={i}>
                         { !!this.state.tables[tableId][chairId].userId ?
-                          <a className={`deg${i} user`} href='#'>
-                            <div class="image-cropper">
+                          <a className={tableId == Object.keys(this.state.tables)[0] ? `extended${i} user` : `deg${i} user`} href='#'>
+                            <div className="image-cropper">
                               <img src={ !!this.state.tables[tableId][chairId].avatar ? this.state.tables[tableId][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt={this.state.tables[tableId][chairId].name}/>
                             </div>
                           </a>
-                          : <a onClick={() => this.sitUser(tableId, chairId)} className={`deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
+                          : <a onClick={() => this.sitUser(tableId, chairId)} className={tableId==9 ? `extended${i}` : `deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
                       </Fragment>
                     )})}
                   </div>

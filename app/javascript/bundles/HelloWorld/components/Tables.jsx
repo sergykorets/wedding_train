@@ -52,6 +52,7 @@ export default class Tables extends React.Component {
   }
 
   render() {
+    console.log(this.state)
     return (
       <section>
         <div className="container">
@@ -81,26 +82,94 @@ export default class Tables extends React.Component {
                 <div className='col-sm-2'><img src='/images/22853113_367986120303019_8357080663215630_n.jpg' alt="/images/missing.jpg"/></div>
               </div>
             </div>
-            { Object.keys(this.state.tables).map((tableId, index) => { return (
-              <div className='col-sm-6' key={index}>
-                <div className='table'>
-                  <div className='circle-container'>
-                    <a href='#' className='table-name center'>{index+1}</a>
-                    { Object.keys(this.state.tables[tableId]).map((chairId, i) => { return (
-                      <Fragment key={i}>
-                        { !!this.state.tables[tableId][chairId].userId ?
-                          <a className={tableId == Object.keys(this.state.tables)[0] ? `extended${i} user` : `deg${i} user`} href='#'>
-                            <div className="image-cropper">
-                              <img src={ !!this.state.tables[tableId][chairId].avatar ? this.state.tables[tableId][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={tableId} data-chair={chairId} alt={this.state.tables[tableId][chairId].name}/>
-                            </div>
-                          </a>
-                          : <a onClick={() => this.sitUser(tableId, chairId)} className={tableId == Object.keys(this.state.tables)[0] ? `extended${i}` : `deg${i}`}>{this.state.tables[tableId][chairId].number}</a>}
-                      </Fragment>
-                    )})}
-                  </div>
+            <div className='col-sm-12'></div>
+            <div className='col-sm-4'>
+              <div className='table'>
+                <div className='circle-container'>
+                  <a href='#' className='table-name center'>1</a>
+                  { Object.keys(this.state.tables[Object.keys(this.state.tables)[0]]).map((chairId, i) => { return (
+                    <Fragment key={i}>
+                      { !!this.state.tables[Object.keys(this.state.tables)[0]][chairId].userId ?
+                        <a className={`deg${i} user`} href='#'>
+                          <div className="image-cropper">
+                            <img src={ !!this.state.tables[Object.keys(this.state.tables)[0]][chairId].avatar ? this.state.tables[Object.keys(this.state.tables)[0]][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={Object.keys(this.state.tables)[0]} data-chair={chairId} alt={this.state.tables[Object.keys(this.state.tables)[0]][chairId].name}/>
+                          </div>
+                        </a>
+                        : <a onClick={() => this.sitUser(Object.keys(this.state.tables)[0], chairId)} className={`deg${i}`}>{this.state.tables[Object.keys(this.state.tables)[0]][chairId].number}</a>}
+                    </Fragment>
+                  )})}
                 </div>
               </div>
-            )})}
+              <div className='table'>
+                <div className='circle-container'>
+                  <a href='#' className='table-name center'>2</a>
+                  { Object.keys(this.state.tables[Object.keys(this.state.tables)[1]]).map((chairId, i) => { return (
+                    <Fragment key={i}>
+                      { !!this.state.tables[Object.keys(this.state.tables)[1]][chairId].userId ?
+                        <a className={`deg${i} user`} href='#'>
+                          <div className="image-cropper">
+                            <img src={ !!this.state.tables[Object.keys(this.state.tables)[1]][chairId].avatar ? this.state.tables[Object.keys(this.state.tables)[1]][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={Object.keys(this.state.tables)[1]} data-chair={chairId} alt={this.state.tables[Object.keys(this.state.tables)[1]][chairId].name}/>
+                          </div>
+                        </a>
+                        : <a onClick={() => this.sitUser(Object.keys(this.state.tables)[1], chairId)} className={`deg${i}`}>{this.state.tables[Object.keys(this.state.tables)[1]][chairId].number}</a>}
+                    </Fragment>
+                  )})}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-4 text-center'>
+              <div className='colon'>Колона</div>
+              <div className='table middle'>
+                <div className='circle-container'>
+                  <a href='#' className='table-name center'>3</a>
+                  { Object.keys(this.state.tables[Object.keys(this.state.tables)[2]]).map((chairId, i) => { return (
+                    <Fragment key={i}>
+                      { !!this.state.tables[Object.keys(this.state.tables)[2]][chairId].userId ?
+                        <a className={`deg${i} user`} href='#'>
+                          <div className="image-cropper">
+                            <img src={ !!this.state.tables[Object.keys(this.state.tables)[2]][chairId].avatar ? this.state.tables[Object.keys(this.state.tables)[2]][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={Object.keys(this.state.tables)[2]} data-chair={chairId} alt={this.state.tables[Object.keys(this.state.tables)[2]][chairId].name}/>
+                          </div>
+                        </a>
+                        : <a onClick={() => this.sitUser(Object.keys(this.state.tables)[2], chairId)} className={`deg${i}`}>{this.state.tables[Object.keys(this.state.tables)[2]][chairId].number}</a>}
+                    </Fragment>
+                  )})}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-4'>
+              <div className='table'>
+                <div className='circle-container'>
+                  <a href='#' className='table-name center'>4</a>
+                  { Object.keys(this.state.tables[Object.keys(this.state.tables)[3]]).map((chairId, i) => { return (
+                    <Fragment key={i}>
+                      { !!this.state.tables[Object.keys(this.state.tables)[3]][chairId].userId ?
+                        <a className={`deg${i} user`} href='#'>
+                          <div className="image-cropper">
+                            <img src={ !!this.state.tables[Object.keys(this.state.tables)[3]][chairId].avatar ? this.state.tables[Object.keys(this.state.tables)[3]][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={Object.keys(this.state.tables)[3]} data-chair={chairId} alt={this.state.tables[Object.keys(this.state.tables)[3]][chairId].name}/>
+                          </div>
+                        </a>
+                        : <a onClick={() => this.sitUser(Object.keys(this.state.tables)[3], chairId)} className={`deg${i}`}>{this.state.tables[Object.keys(this.state.tables)[3]][chairId].number}</a>}
+                    </Fragment>
+                  )})}
+                </div>
+              </div>
+              <div className='table'>
+                <div className='circle-container'>
+                  <a href='#' className='table-name center'>5</a>
+                  { Object.keys(this.state.tables[Object.keys(this.state.tables)[4]]).map((chairId, i) => { return (
+                    <Fragment key={i}>
+                      { !!this.state.tables[Object.keys(this.state.tables)[4]][chairId].userId ?
+                        <a className={`deg${i} user`} href='#'>
+                          <div className="image-cropper">
+                            <img src={ !!this.state.tables[Object.keys(this.state.tables)[4]][chairId].avatar ? this.state.tables[Object.keys(this.state.tables)[4]][chairId].avatar : '/images/missing.jpg'} id={`Popover${chairId}`} onMouseOver={this.toggle} data-table={Object.keys(this.state.tables)[4]} data-chair={chairId} alt={this.state.tables[Object.keys(this.state.tables)[4]][chairId].name}/>
+                          </div>
+                        </a>
+                        : <a onClick={() => this.sitUser(Object.keys(this.state.tables)[4], chairId)} className={`deg${i}`}>{this.state.tables[Object.keys(this.state.tables)[4]][chairId].number}</a>}
+                    </Fragment>
+                  )})}
+                </div>
+              </div>
+            </div>
             <div className='clearfix' style={{padding: 50+'px'}}></div>
           </div>}
       </section>

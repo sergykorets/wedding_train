@@ -422,7 +422,7 @@ export default class Wedding extends React.Component {
           <div class="container">
             <div class="row text-center">
               <div class="col-sm-2">
-                <div id="counter-3" class="custom-color counter-number">55</div>
+                <div id="counter-3" class="custom-color counter-number">57</div>
                 <h6 class="font-weight-light">Розіслано запрошень</h6>
               </div>
               <div class="col-sm-8">

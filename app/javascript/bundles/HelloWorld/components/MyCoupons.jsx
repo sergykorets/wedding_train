@@ -41,8 +41,8 @@ export default class MyCoupons extends React.Component {
             <div className='row text-center'>
               { this.state.coupons.map((coupon, index) => {
                 return (
-                  <div className='col-sm-4'>
-                    <img src={`/images/coupons/${coupon.number}.jpg`} style={{width: 300+'px'}}/>
+                  <div className='col-sm-6' style={{marginBottom: 50+'px'}}>
+                    <img src={`/images/coupons/${coupon.number}.jpg`} style={{width: 500+'px'}}/>
                   </div>)})}
             </div>
           </div>)}

@@ -42,12 +42,32 @@ export default class Coupon extends React.Component {
     console.log(this.state)
     return (
       <Fragment>
-        { !this.state.loading && (
-          <select onChange={this.selectUser}>
-            {this.state.guests.map((user, index) => {
-              return (<option value={user.id}>{user.name}</option>)})}
-          </select>)}
-        <button onClick={this.submitCoupon}>Submit</button>
+        <div className="container" style={{marginTop: 50+'px'}}>
+          <div className="row">
+            <div className="col-lg-12 text-center">
+              <div className="big-head-wrap">
+                <img src={Heart}/>
+              </div>
+              <h2 className="big-heading mt-0 mt-0">Вітаємо, <span className="custom-color">тепер ти маєш</span></h2>
+              <img className="headline_1" src={Simple} />
+            </div>
+          </div>
+        </div>
+        <div className='text-center'>
+          <img src={`/images/coupons/${this.props.number}.jpg`} style={{width: 700+'px'}}/>
+          <h3 style={{marginTop: 50+'px', marginBottom: 50+'px'}}>Для реєстрації сертифіката, вибери себе зі списку та натисни кнопку "Зареєструвати"</h3>
+          <div className='row'>
+            <div className='col-sm-6 offset-sm-3'>
+              { !this.state.loading && (
+                <select className='form-control' onChange={this.selectUser} style={{marginBottom: 50+'px'}}>
+                  <option value=''>Вибери себе зі списку</option>
+                  {this.state.guests.map((user, index) => {
+                    return (<option value={user.id}>{user.name}</option>)})}
+                </select>)}
+            </div>
+          </div>
+          <button style={{marginBottom: 50+'px', paddingTop: 30+'px', paddingBottom: 30+'px', paddingLeft: 150+'px', paddingRight: 150+'px'}} className='btn btn-default fill-btn' onClick={this.submitCoupon}>Зареєструвати</button>
+        </div>
       </Fragment>
     );
   }

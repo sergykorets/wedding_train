@@ -6,7 +6,9 @@ class User < ApplicationRecord
 
   has_one :place
   has_one :chair
-  has_many :coupons
+  has_many :gifts, :dependent => :delete_all
+  has_many :coupons, through: :gifts
+
   validates_presence_of :name, :email
 
   def self.find_for_oauth(auth)

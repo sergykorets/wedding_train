@@ -1,9 +1,9 @@
 class CreateCoupons < ActiveRecord::Migration[5.1]
   def change
     create_table :coupons do |t|
+      t.integer :number
       t.string :name
-      t.integer :user_id
-      t.integer :state
+      t.string :image
     end
   end
 end

@@ -6,7 +6,7 @@ class WeddingController < ApplicationController
 
   def guests
     render json: { attended: current_user.try(:attend),
-                   attendedUsers: User.where(attend: true, admin: false).sort_by {|u| u.name.length}.map {|user| {name: user.name, avatar: user.remote_avatar_url}},
+                   attendedUsers: User.where(attend: true, admin: false).sort_by {|u| u.name.length}.map {|user| {id: user.id, name: user.name, avatar: user.remote_avatar_url}},
                    notAttendedUsers: (User.all - User.joins(:chair)).map {|user| !user.chair && {name: user.name, avatar: user.remote_avatar_url}}}
   end
 

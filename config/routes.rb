@@ -13,5 +13,9 @@ Rails.application.routes.draw do
   get 'sits', to: 'tables#tables'
   get 'sit', to: 'tables#sit'
   get 'change_sit', to: 'tables#cancel'
+  get 'coupons', to: 'coupons#index'
+  post 'register_gift', to: 'coupons#register_gift'
+  get 'my_coupons', to: 'coupons#my_coupons'
+  get 'get_coupons', to: 'coupons#get_coupons'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

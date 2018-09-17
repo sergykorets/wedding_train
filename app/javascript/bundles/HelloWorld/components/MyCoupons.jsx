@@ -38,13 +38,18 @@ export default class MyCoupons extends React.Component {
         </div>
         { !this.state.loading && (
           <div className='coupons' style={{marginTop: 50+'px'}}>
-            <div className='row text-center'>
-              { this.state.coupons.map((coupon, index) => {
-                return (
-                  <div className='col-sm-6' style={{marginBottom: 50+'px'}}>
-                    <img src={`/images/coupons/${coupon.number}.jpg`} style={{width: 500+'px'}}/>
-                  </div>)})}
-            </div>
+            { this.state.coupons.length < 1 ?
+              <div className='text-center'>
+                <h4>Ти не зареєстрував ще сертифікатів. Щоб його зареєструвати - відскануй QR код на сертифікаті та слідуй за підказками</h4>
+              </div>
+              :
+              <div className='row text-center'>
+                { this.state.coupons.map((coupon, index) => {
+                  return (
+                    <div className='col-sm-6' style={{marginBottom: 50+'px'}}>
+                      <img src={`/images/coupons/${coupon.number}.jpg`} style={{width: 500+'px'}}/>
+                    </div>)})}
+              </div>}
           </div>)}
       </Fragment>
     );
